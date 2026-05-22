@@ -157,7 +157,8 @@ export default function App() {
   ]);
 
   // ⚠️ PASTIKAN URL DEPLOYMENT TERBARU SUDAH DIMASUKKAN DI SINI
-  const GAS_URL = 'https://script.google.com/macros/s/AKfycbxkaBllf2b7dP9IlEBgWg-WWQOFnxJRRJj36NFMBWAPKLkQULbT1wpka5xP4mQknc1Qqg/exec
+  const GAS_URL = 'https://script.google.com/macros/s/AKfycbyFivK-eULs2x2PjfKls-igDzIW0MW_Er51CmeNQppABo1K4I_A2BhVAKGIC2d3h3GkmQ/exec'; 
+
   const convertFileToBase64 = (file) => {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
